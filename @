@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int
+main(){
+	int idade;
+	float peso, altura;
+	char sexo[15];
+	printf("\nInforme seu peso\n");
+	scanf("%f", &peso);
+	printf("\nInforme sua altura:\n");
+	scanf("%f", &altura);
+	printf("\nInforme seu sexo:\n");
+	scanf("%s", &sexo);
+	printf("\nInforme seu idade:\n");
+	scanf("%d", &idade);
+	return 0;
+}
